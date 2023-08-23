@@ -18,25 +18,25 @@ const app = express(); //express is a popular web application framework for node
 
 const PORT = 3000; //just initializing the port constant to 3000
 
-// async function connect() {
-//   try {
-//     await mongoose.connect(process.env.MONGODB_URI, {
-//       useNewUrlParser: true,
-//       useUnifiedTopology: true,
-//     });
-//     console.log("Connected to MongoDB");
-//   } catch (error) {
-//     console.error(error);
-//   }
-// }
+async function connect() {
+  try {
+    await mongoose.connect(process.env.MONGODB_URI, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    console.log("Connected to MongoDB");
+  } catch (error) {
+    console.error(error);
+  }
+}
 
-// connect();
+connect();
 
 //serve static files from the public directory
 //app.use applies that path to the express object
 //if no URL path specified, express.js automatically looks up index.html
 //in specified directory
-app.use(express.static('public')); //middleware function
+//app.use(express.static('public')); //middleware function
 
 app.get("/index", (req, res) => {
   const filePath = path.join(__dirname, 'public', 'index.html')
