@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Grant Schaures</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' href='style.css'>
+        <script src='add.js'></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="music_services">
+                <h1>Music Services</h1>
+            </div>
+        </header>
+        
+        <main>
+            <div class="nav_bar">
+                <ul class="navbar">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="search">Search by Genre</a></li>
+                    <li><a href="update">Update a Song</a></li>`
+                    <li><a href="delete">Delete a Song</a></li>
+                    <li><a class="active" href="add">Add a Song</a></li>
+                    <li><a href="list">List all Songs</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <form  method="POST">
+                    <p>
+                        <label for="title">Title:</label>
+                        <input type="text" id="title">
+                    </p>
+                    <p>
+                        <label for="artist">Artist:</label>
+                        <input type="text" id="artist">
+                    </p>
+                    <p>
+                        <label for="released">Released:</label>
+                        <input type="date" id="released">
+                    </p>
+                    <p>
+                        <label for="popularityRating">Popularity:</label>
+                        <input type="number" min="1" max="10" 
+                           id="popularityRating">
+                    </p>
+                    <p>
+                        <label for="genre">Genre:</label>
+                        <input type="text" id="genre">
+                    </p>
+                    <input type="submit" value="submit" id="addBtn">
+                </form>
+            </div>
+
+        </main>
+
+        <footer>
+            <p>&copy The Music Company - Created by Grant Schaures</p>
+        </footer>
+        
+    </body>
+</html>
+</DOCTYPE>
