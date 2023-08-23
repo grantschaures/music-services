@@ -38,70 +38,70 @@ connect();
 //in specified directory
 //app.use(express.static('public')); //middleware function
 
-app.get("/index", (req, res) => {
-  const filePath = path.join(__dirname, 'public', 'index.html')
-  res.sendFile(filePath);
-});
+// app.get("/index", (req, res) => {
+//   const filePath = path.join(__dirname, 'public', 'index.html')
+//   res.sendFile(filePath);
+// });
 
-app.get("/search", (req, res) => {
-  const filePath = path.join(__dirname, 'public', 'search.html')
-  res.sendFile(filePath);
-});
+// app.get("/search", (req, res) => {
+//   const filePath = path.join(__dirname, 'public', 'search.html')
+//   res.sendFile(filePath);
+// });
 
-app.get("/update", (req, res) => {
-  const filePath = path.join(__dirname, 'public', 'update.html')
-  res.sendFile(filePath);
-});
+// app.get("/update", (req, res) => {
+//   const filePath = path.join(__dirname, 'public', 'update.html')
+//   res.sendFile(filePath);
+// });
 
-app.get("/delete", (req, res) => {
-  const filePath = path.join(__dirname, 'public', 'delete.html')
-  res.sendFile(filePath);
-});
+// app.get("/delete", (req, res) => {
+//   const filePath = path.join(__dirname, 'public', 'delete.html')
+//   res.sendFile(filePath);
+// });
 
-app.get("/add", (req, res) => {
-  const filePath = path.join(__dirname, 'public', 'add.html')
-  res.sendFile(filePath);
-});
+// app.get("/add", (req, res) => {
+//   const filePath = path.join(__dirname, 'public', 'add.html')
+//   res.sendFile(filePath);
+// });
 
-app.get("/list", (req, res) => {
-  const filePath = path.join(__dirname, 'public', 'list.html')
-  res.sendFile(filePath);
-});
+// app.get("/list", (req, res) => {
+//   const filePath = path.join(__dirname, 'public', 'list.html')
+//   res.sendFile(filePath);
+// });
 
-app.post("/index", (req, res) => {
-  const filePath = path.join(__dirname, 'public', 'index.html')
-  res.sendFile(filePath);
-});
+// app.post("/index", (req, res) => {
+//   const filePath = path.join(__dirname, 'public', 'index.html')
+//   res.sendFile(filePath);
+// });
 
-app.post("/search", (req, res) => {
-  const filePath = path.join(__dirname, 'public', 'search.html')
-  res.sendFile(filePath);
-});
+// app.post("/search", (req, res) => {
+//   const filePath = path.join(__dirname, 'public', 'search.html')
+//   res.sendFile(filePath);
+// });
 
-app.post("/update", (req, res) => {
-  const filePath = path.join(__dirname, 'public', 'update.html')
-  res.sendFile(filePath);
-});
+// app.post("/update", (req, res) => {
+//   const filePath = path.join(__dirname, 'public', 'update.html')
+//   res.sendFile(filePath);
+// });
 
-app.post("/delete", (req, res) => {
-  const filePath = path.join(__dirname, 'public', 'delete.html')
-  res.sendFile(filePath);
-});
+// app.post("/delete", (req, res) => {
+//   const filePath = path.join(__dirname, 'public', 'delete.html')
+//   res.sendFile(filePath);
+// });
 
-app.post("/add", (req, res) => {
-  const filePath = path.join(__dirname, 'public', 'add.html')
-  res.sendFile(filePath);
-});
+// app.post("/add", (req, res) => {
+//   const filePath = path.join(__dirname, 'public', 'add.html')
+//   res.sendFile(filePath);
+// });
 
-app.post("/list", (req, res) => {
-  const filePath = path.join(__dirname, 'public', 'list.html')
-  res.sendFile(filePath);
-});
+// app.post("/list", (req, res) => {
+//   const filePath = path.join(__dirname, 'public', 'list.html')
+//   res.sendFile(filePath);
+// });
 
-app.use(express.json());
+// app.use(express.json());
 
-app.use("/api/songs", require("./api/songs"));
+// app.use("/api/songs", require("./api/songs"));
 
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}...`);
-});
+// app.listen(PORT, () => {
+//   console.log(`Server listening on port ${PORT}...`);
+// });
