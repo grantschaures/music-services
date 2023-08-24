@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "index.js",
+        "src": "/index",
         "use": "@vercel/node"
       }
     ],
@@ -13,7 +13,7 @@
       { "src": "/delete", "dest": "/delete.html" },
       { "src": "/add", "dest": "/add.html" },
       { "src": "/list", "dest": "/list.html" },
-      { "src": "/api/songs", "dest": "index.js" },
+      { "src": "/api/songs", "dest": "/index.js" },
       { "src": "/(.*)", "dest": "/index.html" }
     ],
     "env": {
