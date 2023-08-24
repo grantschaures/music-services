@@ -1,11 +1,5 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "/index.html",
-        "use": "@vercel/node"
-      }
-    ],
     "routes": [
       { "src": "/index", "dest": "/index.html" },
       { "src": "/search", "dest": "/search.html" },
@@ -15,9 +9,6 @@
       { "src": "/list", "dest": "/list.html" },
       { "src": "/api/songs", "dest": "/index.js" },
       { "src": "/(.*)", "dest": "/index.html" }
-    ],
-    "env": {
-      "MONGODB_URI": "your-mongodb-uri"
-    }
+    ]
 }
   
