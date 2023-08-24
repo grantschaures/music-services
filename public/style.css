@@ -81,14 +81,14 @@ cursor: pointer;
 .grid-container {
     border-collapse: collapse;
     width: 100%;
-  }
+}
   
-  .grid-container th, .grid-container td {
+.grid-container th, .grid-container td {
     border: 1px solid #ddd;
     padding: 8px;
-  }
+}
   
-  .grid-container th {
+.grid-container th {
     background-color: #333;
     color: #fff;
-  }
+}

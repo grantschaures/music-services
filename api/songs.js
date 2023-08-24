@@ -33,7 +33,6 @@ router.post("/", function(req, res) {
 
 //find song by id
 router.get("/:id", function(req, res) {
-   console.log("test");
    // Use the ID in the URL path to find the song
    Song.findById(req.params.id)
     .then(song => {
