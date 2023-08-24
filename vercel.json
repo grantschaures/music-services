@@ -1,10 +1,5 @@
 {
     "version": 2,
-    "builds": [
-        {
-          "use": "@vercel/node"
-        }
-      ],
     "routes": [
       { "src": "/index", "dest": "/index.html" },
       { "src": "/search", "dest": "/search.html" },
