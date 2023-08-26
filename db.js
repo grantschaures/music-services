@@ -18,3 +18,5 @@ mongoose.connect(process.env.MONGODB_URI, {
 });
 
 module.exports = mongoose;
+
+//mongoose is an Object Data Modeling (ODM) library for MongoDB and provides a convenient way to interact with the database using JavaScript objects

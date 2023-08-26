@@ -16,7 +16,8 @@ require('dotenv').config();
 const app = express(); //express is a popular web application framework for node.js
                        //and express() creates the express application object
 
-const PORT = 3000; //just initializing the port constant to 3000
+//const PORT = 3000; //just initializing the port constant to 3000
+const PORT = process.env.PORT
 
 async function connect() {
   try {
