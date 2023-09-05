@@ -11,6 +11,7 @@ const router = require("express").Router();
 
 // Get list of all songs in the database
 router.get("/", function(req, res) {
+  console.log("TEST");
    Song.find()
      .then(songs => {
        res.json(songs);
