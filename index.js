@@ -37,6 +37,7 @@ connect();
 //app.use applies that path to the express object
 //if no URL path specified, express.js automatically looks up index.html
 //in specified directory
+
 app.use(express.static('public')); //middleware function
 
 app.get("/index", (req, res) => {
