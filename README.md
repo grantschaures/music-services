@@ -17,6 +17,6 @@ This project was developed as part of the CS 290 Web development course at Orego
 6) Initialize MONGODB_URI to your unique MongoDB Cloud Atlas connection string (if you have not done so, create an account at https://www.mongodb.com/) - this will be in the format: mongodb+srv://<your username>:<your password>@cluster0.jqgtu0c.mongodb.net/
 7) Once you're connected to MongoDB in your code editor, run npm start to run the app locally
 
-# Usage
+## Usage
 Run App: 
 ```npm start```
