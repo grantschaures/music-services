@@ -8,7 +8,7 @@ This project was developed as part of the CS 290 Web development course at Orego
 * Update - Update song info
 * Delete - Delete a song
 
-## How to install this project and run locally:
+## How to install this project and run locally
 1) Clone repository locally (git clone https://github.com/grantschaures/music-services.git)
 2) Change into music-services directory (cd music-services)
 3) Install dependencies (npm i)
